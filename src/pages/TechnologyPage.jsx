@@ -24,7 +24,9 @@ function TechnologyPage({ technologiesData }) {
     <div>
       <h1>Technology Details</h1>
       {selectedTechDetails()}
-      <Link to={`/company/${companySlug}`}>Back</Link>
+      <Link to={`/company/${companySlug}`} className="back-button">
+        Back
+      </Link>
     </div>
   );
 }
